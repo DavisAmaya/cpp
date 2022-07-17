@@ -4,15 +4,18 @@
 using namespace std;
 
 void menu ()
+    
 {
     int opcion = 0;
 
     while (true)
+        
     {
         system ("cls");
         cout << "********";
         cout << "  MENU  ";
         cout << "********";
+        
         cout << endl;
         cout << endl;
         cout << endl;
