@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
     int dado1;
     int i;   
     int dado2;
-    string lanzar;
+    string lanzarDado;
     int tiroDado;
     
     tiroDado = dado1 + dado2;
@@ -17,11 +17,11 @@ int main(int argc, char const *argv[])
     while (true)
     {
         cout << "**************************************************" << endl;
-        cout << "             Bienvenido al juego                  " << endl; 
+        cout << "             Sea bienvenido al juego                  " << endl; 
         cout << "**************************************************" << endl << endl;
         
-        cout<<"Presione cualquier tecla para lanzar los dados: "<< endl;
-        cin >> lanzar;
+        cout<<"De click a cualquier tecla, para lanzar los dados: "<< endl;
+        cin >> lanzarDado;
 
         system ("cls");
         for (int i = 0; i <= 3; i++)
@@ -31,10 +31,10 @@ int main(int argc, char const *argv[])
         dado2 = rand()% 6+1;  
         }
         
-        cout << "Dado 1: "<< dado1 << endl;
-        cout << "Dado 2: "<< dado2 <<endl;
+        cout << "Dado numero 1: "<< dado1 << endl;
+        cout << "Dado numero 2: "<< dado2 <<endl;
                 
-        cout<<"La suma de los dados es: "<< tiroDado << endl <<endl;
+        cout<<"La suma de los dados es igual a: "<< tiroDado << endl <<endl;
         
         if (tiroDado == 4 || tiroDado == 6 || tiroDado == 8)
         {
@@ -48,7 +48,6 @@ int main(int argc, char const *argv[])
             cout<< endl << "***********************************"<< endl;
             cout<< endl << "       Lo siento, haz perdido     "<< endl;
             cout<< endl << "***********************************"<< endl;
-            
             break;
         }
         
