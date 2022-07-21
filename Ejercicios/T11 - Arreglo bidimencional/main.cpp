@@ -17,10 +17,8 @@ int main(int argc, char const *argv[])
 
     numero [2][0] = aleatorio;
     numero [2][1] = aleatorio;
-
-
     
-    srand (time (NULL));// Inicializa el numero random
+    srand (time (NULL)); 
 
     for (int i = 0; i < 5; i++)
     {
@@ -31,7 +29,7 @@ int main(int argc, char const *argv[])
     }
 
     suma = numero;
-    cout << "Total suma: " << suma << endl;
+    cout << "Total de la suma: " << suma << endl;
 
     return 0;
 }
