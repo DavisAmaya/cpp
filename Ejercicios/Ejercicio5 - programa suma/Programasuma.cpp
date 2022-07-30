@@ -11,10 +11,9 @@ int main(int argc, char const *argv[])
     cout << "Ingrese el valor de a:  ";
     cin >> a;
     cout << endl;
-
     cout << "Ingrese el valor de b: ";
     cin >> b;
-
+    
     resultado = a + b;
 
     cout << endl;
