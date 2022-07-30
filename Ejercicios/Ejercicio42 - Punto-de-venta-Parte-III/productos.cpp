@@ -17,6 +17,7 @@ void productos (int opcion)
         
         cout << "BEBIDAS CALIENTES" << endl;
         cout << "*****************" << endl;
+        
         cout << "1 - Capuccino" << endl;
         cout << "2 - Expresso" << endl;
 
