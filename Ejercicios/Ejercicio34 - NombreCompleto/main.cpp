@@ -13,12 +13,9 @@ int main(int argc, char const *argv[])
 
     cout << "Ingrese su primer nombre:   ";
     cin >> primerNombre;
-
     cout << "Ingrese su primer apellido:   ";
     cin >> primerApellido;
-
     cout << endl;
-
     cout << "Nombre completo: " << nombreCompleto (primerNombre, primerApellido);
 
     return 0;
