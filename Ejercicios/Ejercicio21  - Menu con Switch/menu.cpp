@@ -11,7 +11,6 @@ int main(int argc, char const *argv[])
         cout << "****" << endl;
         cout << "MENU" << endl;
         cout << "****" << endl;
-
         cout << "1 - Cafe y granitas" << endl;
         cout << "2 - Reposteria" << endl;
         cout << "0 - Salir" << endl;
@@ -52,6 +51,7 @@ int main(int argc, char const *argv[])
     }
 
     cout << endl;
+    
     cout << "Saliste del sistema";
 
     return 0;
