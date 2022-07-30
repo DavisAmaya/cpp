@@ -22,7 +22,6 @@ int main(int argc, char const *argv[])
 
     for (int i = 0; i < 5; i++)
     {
-        // Genera un numero entre 1 y 25
         aleatorio = rand () % 25 + 1;
 
         cout << numero [i][0] << "  "<< numero [i][1] << endl;
