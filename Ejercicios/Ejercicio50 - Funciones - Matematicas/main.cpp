@@ -17,9 +17,12 @@ int main(int argc, char const *argv[])
     tangente = tan (numero);
 
     cout << "El numero es:  " << numero << endl;
-    cout << "El seno es:  " << seno << endl;
-    cout << "El coseno es:  " << coseno << endl;
-    cout << "El tangente es:  " << tangente << endl;
+    
+    cout << "Seno:  " << seno << endl;
+    
+    cout << "Coseno:  " << coseno << endl;
+    
+    cout << "Tangente:  " << tangente << endl;
 
     return 0;
 }
