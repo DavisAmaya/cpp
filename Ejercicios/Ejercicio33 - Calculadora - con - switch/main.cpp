@@ -4,17 +4,14 @@ using namespace std;
 
 int sumar ( int a, int b )
 {
-
     return a + b;
 }
 int restar ( int a, int b )
 {
-
     return a - b;
 }
 int multipilicar ( int a, int b )
 {
-
     return a * b;
 }
 int dividir ( int a, int b )
@@ -48,7 +45,6 @@ int calculadora ( int a, int b, char operador)
     default:
         break;
     }
-
     throw "El operador no existe";
 }
 
@@ -61,13 +57,10 @@ int main(int argc, char const *argv[])
 
     cout << "Ingrese a: ";
     cin >> n1;
-
     cout << "Ingrese b: ";
     cin >> n2;
-    
     cout << "Ingrese el operador ( +, -, *, / ): ";
     cin >> operador;
-
     cout << endl;
 
     try
@@ -80,9 +73,6 @@ int main(int argc, char const *argv[])
     {
         cout << error;
     }
-    
-
-    
-
+  
     return 0;
 }
