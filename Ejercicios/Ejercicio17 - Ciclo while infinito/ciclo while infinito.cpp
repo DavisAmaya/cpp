@@ -3,7 +3,8 @@
 using namespace std;
 
 int main(int argc, char const *argv[])
-{
+{   
+    
     int ciclos = 1000000;
 
     while (ciclos < 100)
