@@ -8,13 +8,13 @@ void imprimirCaracteres (char caracter, int ciclos)
     {
         cout << caracter;
     }
-    
     cout << endl;
 }
 
 int main(int argc, char const *argv[])
 {
     imprimirCaracteres ('@', 10);
+    
     imprimirCaracteres ('#', 5);
     
     cout << "Hola mundo" << endl;
