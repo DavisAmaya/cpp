@@ -12,10 +12,13 @@ int main(int argc, char const *argv[])
 
     cout << sumar (5, 7);
     cout << endl;
+    
     cout << sumar (15, 7);
     cout << endl;
+    
     cout << sumar (5, 71);
     cout << endl;
+    
     cout << sumar (5, 8);
     cout << endl;
 
