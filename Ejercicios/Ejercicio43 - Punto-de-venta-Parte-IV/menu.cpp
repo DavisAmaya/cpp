@@ -15,6 +15,7 @@ void menu ()
         cout << "********";
         cout << "  MENU  ";
         cout << "********";
+        
         cout << endl;
         cout << endl;
         cout << endl;
@@ -36,7 +37,8 @@ void menu ()
         {
             imprimirFactura ();
             break;
-        } else {
+        } else 
+        {
             productos (opcion);
         }
 
