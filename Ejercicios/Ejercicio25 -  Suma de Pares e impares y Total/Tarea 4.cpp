@@ -10,25 +10,21 @@ int main(int argc, char const *argv[])
 
     cout << endl;
 
-    for (int i = 1; i <= 10; i++)
-    {
-        if (i % 2 == 0)
-        {
+    for (int i = 1; i <= 10; i++){
+        if (i % 2 == 0){
             pares = pares + i;
         }
-        else
-        {
+        else{
             impares += i;
         }
 
         sumaTotal = pares + impares;
-
-        
         cout << i << "  ";
     }
 
     cout << endl;
     cout << endl;
+    
     cout << "Total pares: " << pares << endl;
     cout << "Total impares: " << impares << endl;
     cout << "Suma total de pares + impares: " << sumaTotal;
