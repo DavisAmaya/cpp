@@ -14,7 +14,6 @@ int calculadora ( int a, int b, char operador)
     {
         return suma (a, b);
     }
-
     throw "El operador no existe";
 }
 
@@ -27,13 +26,10 @@ int main(int argc, char const *argv[])
 
     cout << "Ingrese a: ";
     cin >> n1;
-
     cout << "Ingrese b: ";
     cin >> n2;
-    
     cout << "Ingrese el operador ( +, -, *, / ): ";
     cin >> operador;
-
     cout << endl;
 
     try
@@ -47,8 +43,5 @@ int main(int argc, char const *argv[])
         cout << error;
     }
     
-
-    
-
     return 0;
 }
