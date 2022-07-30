@@ -7,9 +7,7 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     int numero = 0;
-
-
-// Inicializa el numero random
+    
     srand (time (NULL));
 
     for (int i = 0; i < 20; i++)
@@ -19,8 +17,6 @@ int main(int argc, char const *argv[])
 
         cout << "Numero al azar: " << numero << endl;
     }
-    
-
 
     return 0;
 }
