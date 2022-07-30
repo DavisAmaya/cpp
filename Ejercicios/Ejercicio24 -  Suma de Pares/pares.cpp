@@ -18,8 +18,8 @@ int main(int argc, char const *argv[])
 
     cout << endl;
     cout << endl;
-    cout << "Total pares: " << pares;
     
+    cout << "Total pares: " << pares;
 
     return 0;
 }
