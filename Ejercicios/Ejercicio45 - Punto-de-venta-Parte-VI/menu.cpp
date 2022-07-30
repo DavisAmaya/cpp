@@ -25,7 +25,6 @@ void menu ()
         cout << "4 -- Imprimir factura" << endl;
         cout << "0 -- Salir" << endl;
 
-
         cout << endl;
         cout << "Ingrese una opcion: ";
         cin >> opcion;
