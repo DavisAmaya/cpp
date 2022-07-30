@@ -10,11 +10,7 @@ int main(int argc, char const *argv[])
     int numeroSecreto = 0;
     int miNumero = 0;
 
-    //inicializa el numero random
-
     srand (time(NULL));
-
-    //generar un numero entre 1 y 10
     numeroSecreto = rand () % 10 + 1;
 
     do
@@ -31,8 +27,7 @@ int main(int argc, char const *argv[])
             if (numeroSecreto > miNumero)
             {
                 cout << "El numero secreto puede ser mayor" << endl;
-            }
-            
+            } 
         }
         
     } while (numeroSecreto != miNumero);
