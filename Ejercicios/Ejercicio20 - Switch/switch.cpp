@@ -26,7 +26,7 @@ int main(int argc, char const *argv[])
         default:
             cout << "Ingrese una opcion entre 1 y 3" << endl;
             break;
+    
     } 
-
     return 0;
 }
