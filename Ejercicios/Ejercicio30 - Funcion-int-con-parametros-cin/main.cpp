@@ -18,6 +18,7 @@ int main(int argc, char const *argv[])
 
     cout << "Ingrese el valor de a: ";
     cin >> numero1;
+    
     cout << "Ingrese el valor de b: ";
     cin >> numero2;
 
@@ -25,8 +26,8 @@ int main(int argc, char const *argv[])
 
     cout << "El resultado de la suma es: " << sumar (numero1, numero2);
     cout << endl;
+    
     cout << "El resultado de la resta es: " << restar (numero1, numero2);
     cout << endl;
-
     return 0;
 }
