@@ -15,8 +15,8 @@ int main(int argc, char** argv) {
 	}
 	
 	cout << endl;
-	cout << "Saliste del ciclo";
 	
+	cout << "Saliste del ciclo";
 	
 	return 0;
 }
