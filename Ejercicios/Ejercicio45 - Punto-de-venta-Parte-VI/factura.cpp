@@ -21,11 +21,10 @@ void imprimirFactura ()
     cout << "**********"  << endl; 
     cout << " FACTURA  "  << endl; 
     cout << "**********"  << endl;
+    
     cout << endl;
-
     cout << "Productos: " << endl;
     cout <<  listaProductos;
-
     cout << endl;
     cout << "Subtotal: " << subtotal;
     cout << endl;
