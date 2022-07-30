@@ -19,16 +19,13 @@ int main(int argc, char const *argv[])
         cout << "Ingrese una opcion del menu: ";
         cin >> opcion;
 
-
-        if ( opcion == 1 )
-        {
+        if ( opcion == 1 ){
             system ("cls");
             cout  << "Estas en el menu de cafe y granitas" << endl;
             system ("pause");
         }
         
-        if ( opcion == 2 )
-        {
+        if ( opcion == 2 ){
             system ("cls");
             cout  <<  "Estas en el menu de reposteria" << endl;
             system ("pause");
@@ -38,8 +35,6 @@ int main(int argc, char const *argv[])
         {
             break;
         }
-        
-        
     }
 
     cout << endl;
