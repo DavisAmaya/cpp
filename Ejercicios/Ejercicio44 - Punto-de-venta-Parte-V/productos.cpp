@@ -10,15 +10,16 @@ void productos (int opcion)
 
     int opcionProducto = 0;
 
-    switch (opcion)
-    {
+    switch (opcion){
     case 1:
     {
         
         cout << "BEBIDAS CALIENTES" << endl;
         cout << "*****************" << endl;
+        
         cout << "1 - Capuccino" << endl;
         cout << "2 - Expresso" << endl;
+        
         cout << endl;
 
         cout << "Ingrese una opcion: ";
