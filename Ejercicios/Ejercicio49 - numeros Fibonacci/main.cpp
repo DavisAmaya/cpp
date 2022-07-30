@@ -8,13 +8,12 @@ int fib (int n)
     {
         return n;
     }
-    
     return fib (n - 1) + fib (n - 2);
 }
 
 int main(int argc, char const *argv[])
 {
-    cout << fib (9); //posicion
+    cout << fib (9); 
     cout << endl;
 
     return 0;
