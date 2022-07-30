@@ -7,16 +7,15 @@ extern void agregarProducto (string descripcion, int cantidad, double precio);
 void productos (int opcion)
 {
     system ("cls");
-
     int opcionProducto = 0;
 
     switch (opcion)
     {
     case 1:
     {
-        
         cout << "BEBIDAS CALIENTES" << endl;
         cout << "*****************" << endl;
+        
         cout << "1 - Capuccino" << endl;
         cout << "2 - Expresso" << endl;
 
